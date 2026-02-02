@@ -1,0 +1,15 @@
+[project]
+name = "financial-reporting-with-great-tables-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gapminder>=0.1",
+    "great-tables>=0.20.0",
+    "pandas>=3.0.0",
+    "pip>=26.0",
+    "polars>=1.37.1",
+    "pyarrow>=23.0.0",
+    "setuptools>=80.10.2",
+]
