@@ -58,4 +58,4 @@ The script generates a styled table with:
 
 ## License
 
-MIT
+Free
