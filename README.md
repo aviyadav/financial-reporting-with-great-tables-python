@@ -201,11 +201,19 @@ def _load_gapminder():
 
 ## Dependencies
 
-| Package | Purpose |
-|---|---|
-| **great-tables** | Render publication-quality, styled HTML tables |
-| **polars** | Fast DataFrame library; used for wrangling and as the GT data backend |
-| **pandas** | Data wrangling in the pandas variants; also required internally by `gapminder` |
-| **gapminder** | Sample dataset — country-level population and life expectancy, 1952–2007 |
-| **pyarrow** | Arrow backend enabling Polars/pandas interoperability via `pl.from_pandas()` |
-| **setuptools** | Provides `pkg_resources`, required by the `gapminder` package |
+- **great-tables** - Create beautiful tables in Python
+- **polars** - Fast DataFrame library
+- **gapminder** - Sample dataset for demonstrations
+- **pandas** - Data manipulation (required by gapminder)
+- **pyarrow** - Arrow integration for data processing
+
+## Example Output
+
+The script generates a styled table with:
+- Custom header with dark blue background
+- Color-coded population values (light to dark blue gradient)
+- Inline bar charts showing population trends from 1952-2007
+
+## License
+
+MIT
