@@ -214,6 +214,3 @@ The script generates a styled table with:
 - Color-coded population values (light to dark blue gradient)
 - Inline bar charts showing population trends from 1952-2007
 
-## License
-
-MIT
